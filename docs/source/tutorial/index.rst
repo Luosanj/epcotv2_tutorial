@@ -7,7 +7,15 @@ EPCOT v2 predicts diverse molecular modalities for the central 500kb regions ext
 
 Human Data Prediction
 ---------------------
-(1) Input file preparation.
+(1) **Input file preparation.** The initial file, which is a BAM file, is pre-processed to become the input for EPCOT v2.
+
+.. code-block:: bash
+  ## Generate the .bigWig file
+  bamCoverage --bam ${cl}.bam -o ${cl}_atac.bigWig --outFileFormat bigwig --normalizeUsing RPGC \
+    --effectiveGenomeSize 2913022398 --Offset 1 --binSize 1 --numberOfProcessors 12 \
+    --blackListFileName ../data/black_list.bed
+  ## Run atac_process.py to generate the .pickle file which is the required input format of EPCOT v2.
+  python atac_process.py ${cl}_atac.bigWig
 
 (2) Prediction.
 
