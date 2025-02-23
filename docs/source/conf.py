@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'EPCOT v2'
-    copyright = '2025, Zhenhao Zhang'
+copyright = '2025, Zhenhao Zhang'
 author = 'Zhenhao Zhang'
 
 release = '0.1'
