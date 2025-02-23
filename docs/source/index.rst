@@ -1,4 +1,4 @@
-Welcome to the documentation of EPCOT V2!
+Welcome to the documentation of EPCOT v2!
 ===================================
 
 This is a documentation for usage of **EPCOT v2** pre-trained models, including installation instructions and tutorials on how to effectively utilize the models."
@@ -9,6 +9,8 @@ This is a documentation for usage of **EPCOT v2** pre-trained models, including 
 
 Contents
 --------
+
+The installation and usage of EPCOT v2 are described in `Installation` and `Tutorials` section.
 
 .. toctree::
    :maxdepth: 2
