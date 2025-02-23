@@ -1,22 +1,25 @@
-Welcome to Lumache's documentation!
+Welcome to the documentation of EPCOT V2!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This is a documentation for usage of **EPCOT v2** pre-trained models, including installation instructions and tutorials on how to effectively utilize the models."
 
 .. note::
 
-   This project is under active development.
+   The weights for the EPCOT v2 models can be downloaded from HuggingFace.
 
 Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+      :hidden:
+      :caption: Installation
 
-   usage
-   api
+      /install/index
+
+.. toctree::
+   :maxdepth: 2
+      :hidden:
+      :caption: Tutorials
+
+      /tutorial/index
