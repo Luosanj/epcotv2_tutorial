@@ -12,14 +12,14 @@ Contents
 
 .. toctree::
    :maxdepth: 2
-      :hidden:
-      :caption: Installation
+   :hidden:
+   :caption: Installation
 
-      /install/index
+   /install/index
 
 .. toctree::
    :maxdepth: 2
-      :hidden:
-      :caption: Tutorials
+   :hidden:
+   :caption: Tutorials
 
-      /tutorial/index
+   /tutorial/index
