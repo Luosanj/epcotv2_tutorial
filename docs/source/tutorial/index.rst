@@ -25,7 +25,7 @@ Human Data Prediction
      ## Run the model execution file tt_pred_gw.py to predict desired molecular modalities. 
      python tt_pred_gw.py
 
-(3) Extraction of each predicted modality. Assume the output file is called 'spleen.pickle'. 
+(3) **Extraction of each predicted modality.** Assume the output file is called 'spleen.pickle'. 
 
 .. code-block:: python
 
@@ -37,7 +37,7 @@ Human Data Prediction
     spleen_pickle['rna'] # expected shape: (11123, 500, 3)
     spleen_pickle['bru'] # expected shape: (11123, 500, 3)
     spleen_pickle['microc']  # expected shape: (11123, 500, 2)
-    spleen_pickle['hic'] # expected shape: (11123, 500, 3)
+    spleen_pickle['hic'] # expected shape: (11123, 100, 3) Hi-C is predicted at 5kb resolution.
     spleen_pickle['intacthic'] # expected shape: (11123, 500, 2)
     spleen_pickle['rna_strand'] # expected shape: (11123, 500, 2)
     spleen_pickle['external_tf'] 
