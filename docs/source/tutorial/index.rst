@@ -25,7 +25,7 @@ Human Data Prediction
      ## Run the model execution file tt_pred_gw.py to predict desired molecular modalities. 
      python tt_pred_gw.py
 
-(3) **Extraction of each predicted modality.** Assume the output file is called 'spleen.pickle'. 
+(3) **Extraction of each predicted modality.** Assume the output file is called 'spleen.pickle'. Each predicted sample is the central 500kb from 600kb segments, composed of 500 1kb genomic bin.
 
 .. code-block:: python
 
