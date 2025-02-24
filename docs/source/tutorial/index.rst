@@ -49,6 +49,7 @@ Human Data Prediction
     spleen_pickle['starr'] # expected shape: (11123, 500, 1)
 
 Here is the explanation of each modality that can be predicted:
+
 (1) Epigenomic features. The list of epigenomic features can be found on Github in a file named "epigenomes.txt".
 
 (2) RNA-seq. 1. CAGE-seq 2. Total RNA-seq 3. PolyA+ RNA-seq
