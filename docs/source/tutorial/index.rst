@@ -10,6 +10,7 @@ Human Data Prediction
 (1) **Input file preparation.** The initial file, which is a BAM file, is pre-processed to become the input for EPCOT v2.
 
 .. code-block:: bash
+
    ## Generate the .bigWig file
    bamCoverage --bam input.bam -o ${cell_line}_atac.bigWig --outFileFormat bigwig --normalizeUsing RPGC \
    --effectiveGenomeSize 2913022398 --Offset 1 --binSize 1 --numberOfProcessors 12 \
