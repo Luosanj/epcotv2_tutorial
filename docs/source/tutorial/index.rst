@@ -18,7 +18,7 @@ Human Data Prediction
    ## Run atac_process.py to generate the .pickle file which is the required input format of EPCOT v2.
    python atac_process.py ${cell_line}_atac.bigWig
 
-(2) Prediction.
+(2) **Prediction.**
 
 (3) Extraction of each predicted modality.
 
