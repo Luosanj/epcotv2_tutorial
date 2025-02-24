@@ -50,18 +50,31 @@ Human Data Prediction
 
 Here is the explanation of each modality that can be predicted:
 (1) Epigenomic features. The list of epigenomic features can be found on Github in a file named "epigenomes.txt".
+
 (2) RNA-seq. 1. CAGE-seq 2. Total RNA-seq 3. PolyA+ RNA-seq
+
 (3) Bru-seq. 1. Bru-seq 2. BruUV-seq 3. BruChase-seq
+
 (4) Micro-c. 1. O/E normalized Micro-C 2. KR normalized Micro-C
+
 (5) Hi-C. 1. CTCF ChIA-PET 2. RNApol2 ChIA-PET 3. Hi-C
+
 (6) Intact Hi-C. 1. O/E normalized intact Hi-C 2. KR normalized intact Hi-C
+
 (7) RNA Strand. 1. Total RNA-seq (forward) 2. Total RNA-seq (reverse)
+
 (8) Additional TFs. The list of additional TFs can be found on Github in a file named unseeen_tf.txt
+
 (9) TT-seq. 1. TT-seq (forward) 2. TT-seq (reverse)
+
 (10) GRO-seq. 1. GRO-seq (forward) 2. GRO-seq (reverse)
+
 (11) GRO-cap. 1. GRO-cap (forward) 2. GRO-cap (reverse) 3. GRO-cap_wTAP (forward) 4. GRO-cap_wTAP(reverse)
+
 (12) PRO-seq. 1. PRO-seq (forward) 2. PRO-seq (reverse) 3. PRO-cap
+
 (13) NET-CAGE. 1. NET-CAGE (forward) 2. NET-CAGE (reverse)
+
 (14) STARR-seq. 1. STARR-seq
 
 Mouse Data Prediction
