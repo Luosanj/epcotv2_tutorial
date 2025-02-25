@@ -13,7 +13,7 @@ Human Data Prediction
 
     ## Generate the .bigWig file
     bamCoverage --bam input.bam -o ${cell_line}_atac.bigWig --outFileFormat bigwig --normalizeUsing RPGC \
-    --effectiveGenomeSize 2913022398 --Offset 1 --binSize 1 --numberOfProcessors 12 \
+    --effectiveGenomeSize 2913022398 --Offset 1 --binSize 10 --numberOfProcessors 12 \
     --blackListFileName ../data/black_list.bed
     ## Run atac_process.py to generate the .pickle file which is the required input format of EPCOT v2.
     python atac_process.py ${cell_line}_atac.bigWig
@@ -36,8 +36,8 @@ Human Data Prediction
     spleen_pickle['epi']
     spleen_pickle['rna'] # expected shape: (11123, 500, 3)
     spleen_pickle['bru'] # expected shape: (11123, 500, 3)
-    spleen_pickle['microc']  # expected shape: (11123, 500, 2)
-    spleen_pickle['hic'] # expected shape: (11123, 100, 3) Hi-C is predicted at 5kb resolution.
+    spleen_pickle['microc']  # expected shape: (11123, 500, 500, 2)
+    spleen_pickle['hic'] # expected shape: (11123, 100, 100, 3) Hi-C is predicted at 5kb resolution.
     spleen_pickle['intacthic'] # expected shape: (11123, 500, 2)
     spleen_pickle['rna_strand'] # expected shape: (11123, 500, 2)
     spleen_pickle['external_tf'] 
@@ -86,7 +86,7 @@ Mouse Data Prediction
 
     ## Generate the .bigWig file
     bamCoverage --bam input.bam -o ${cell_line}_atac.bigWig --outFileFormat bigwig --normalizeUsing RPGC \
-    --effectiveGenomeSize 2913022398 --Offset 1 --binSize 1 --numberOfProcessors 12 \
+    --effectiveGenomeSize 2913022398 --Offset 1 --binSize 10 --numberOfProcessors 12 \
     --blackListFileName ../data/black_list.bed
     ## Run atac_process.py to generate the .pickle file which is the required input format of EPCOT v2.
     python atac_process.py ${cell_line}_atac.bigWig
