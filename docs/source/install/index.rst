@@ -1,6 +1,7 @@
 Get Started
 -------------------------
 -------------------------
+
 Epcotv2 is a general-purpose foundation model for integrative genomic prediction,
 capable of inferring diverse regulatory modalities from minimal input data. Unlike task-specific
 models, this architecture unifies transcriptional and chromatin-level outputs within a shared
@@ -61,4 +62,4 @@ To set up the model locally for inference or fine-tuning, follow the steps below
     conda activate epcot
     pip install -r requirements.txt
 
-One can refer to ``epcotv2_basic_tutorial.ipynb`` for the basic usage of this model.
+One can refer to **epcotv2_basic_tutorial.ipynb** for the basic usage of this model.
