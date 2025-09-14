@@ -25,15 +25,18 @@ Both inputs are designed to be cell-type specific and jointly encode local cis-r
 Predicted Modalities
 --------------------
 
-Given the above inputs, the model is trained to simultaneously predict multiple genomic modalities:
+The model is trained in a multi-task setting to directly predict a broad range of genomic and epigenomic modalities from DNA sequence and ATAC-seq input. These include:
 
-- **Nascent RNA transcription** measured by assays such as PRO-seq, GRO-seq, and TT-seq
-- **Enhancer-associated transcription** and bidirectional transcription initiation
-- **High-resolution chromatin contact maps**, including Micro-C and Hi-C style predictions
-- **Regulatory activity of non-coding elements**, including eQTL regions and predicted enhancers
-- **Functional impact of non-coding variants** based on localized regulatory context
+- **Nascent transcription signals**, such as PRO-seq, GRO-seq, TT-seq, and related strand-specific assays
+- **Total and polyA+ RNA-seq**, capturing steady-state expression
+- **Chromatin accessibility and histone modifications**, covering a wide panel of epigenomic marks
+- **3D chromatin organization**, including Micro-C, Hi-C, and ChIA-PET contact maps
+- **Transcription initiation signals**, such as CAGE-seq and GRO-cap
+- **Synthetic enhancer activity**, including STARR-seq
 
-These outputs are aligned to the same input resolution, enabling unified evaluation and visualization.
+A complete list of supported modalities can be found in the repository under ``data/epi_list`` and ``data/extra_tf_list.txt``.
+
+All outputs are aligned to a shared genomic coordinate system, enabling consistent evaluation and downstream analysis.
 
 Cross-Context Generalization
 ----------------------------
