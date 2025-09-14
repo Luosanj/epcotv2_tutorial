@@ -10,12 +10,12 @@ This is a documentation for usage of **EPCOT v2** pre-trained models, including 
 Contents
 --------
 
-The installation and usage of EPCOT v2 are described in "Installation" and "Tutorials" section.
+The installation and usage of EPCOT v2 are described in "Get Started" and "Tutorials" section.
 
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Installation
+   :caption: Get Started
 
    /install/index
 
