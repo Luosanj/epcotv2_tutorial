@@ -61,4 +61,4 @@ To set up the model locally for inference or fine-tuning, follow the steps below
     conda activate epcot
     pip install -r requirements.txt
 
-One can refer to ``epcotv2_basic_tutorial.ipynb'' for the basic usage of this model.
+One can refer to ``epcotv2_basic_tutorial.ipynb`` for the basic usage of this model.
