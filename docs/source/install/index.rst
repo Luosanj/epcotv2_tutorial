@@ -47,4 +47,18 @@ This model can be used for:
 - Interpreting the potential functional role of non-coding genetic variants
 - Reconstructing 3D chromatin architecture in data-limited settings
 
+Installation
+-------------------------
 
+To set up the model locally for inference or fine-tuning, follow the steps below:
+
+.. code-block:: bash
+
+    git clone https://github.com/liu-bioinfo-lab/general_AI_model.git
+    cd general_AI_model
+    # setup environment
+    conda create -n epcot python==3.9
+    conda activate epcot
+    pip install -r requirements.txt
+
+One can refer to ``epcotv2_basic_tutorial.ipynb'' for the basic usage of this model.
