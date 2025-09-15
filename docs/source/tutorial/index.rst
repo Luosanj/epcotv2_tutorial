@@ -78,8 +78,8 @@ Here is the explanation of each modality that can be predicted:
 
 (14) STARR-seq. 1. STARR-seq
 
-Mouse Data Prediction
----------------------
+Mouse Data Prediction (Coming Soon)
+-----------------------------------
 (1) **Input file preparation.** The initial BAM file, is pre-processed to become the input for EPCOT v2. The name of the generated .bigWig file is formatted as '{cell_line_name}_atac'. **Note** The detailed locations (chrom id, start pos, end pos) of each 600kb region is stored in file "input_region_mm10.bed", which can be found on Github.
 
 .. code-block:: bash
