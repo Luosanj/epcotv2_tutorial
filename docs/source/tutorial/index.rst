@@ -95,7 +95,7 @@ Mouse Data Prediction
 
  .. code-block:: bash
 
-     ## Run the model execution file pred_gw.py to predict desired molecular modalities. 
+     ## Run the model execution file pred_gw.py to predict desired molecular modalities. Code will come soon.
      python pred_gw.py
 
 (3) **Extraction of each predicted modality.** Assume the output file is called 'mouse.pickle'. Each predicted sample is the central 500kb from 600kb segments, composed of 500 1kb genomic bin.
